@@ -29,10 +29,25 @@ class MainActivity : AppCompatActivity() {
         }
 
 
+
+      distakidongu@  for(x in 1..100)
+        {
+            for(y in 70..200 step 3)
+            {
+                println("$x,$y")
+                if(x==5) break@distakidongu
+            }
+        }
+
         // return un yazıldığı yerde mevcut fonksiyon sonlandırılır, bir üst fonksiyona dönülüp fonksiyon kaldığı yerden devam eder
         return
 
         println("Fonksiyondan return kullanılarak çıkılırsa bu yazı ekrana yazılmayacaktır.")
+
+
+
+
+
 
     }
 }
